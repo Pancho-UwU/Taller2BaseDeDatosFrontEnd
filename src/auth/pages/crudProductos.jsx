@@ -74,7 +74,7 @@ export default function CrudProductos() {
         } finally {
             setLoading(false);
         }
-        };
+    };
 
     const abrirModalCrear = () => {
         setProductoNuevo({

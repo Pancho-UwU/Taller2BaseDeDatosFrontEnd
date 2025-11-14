@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import "../css/reporte.css"
 
 export default function Reporte() {
     const [reporteData, setReporteData] = useState(null);
